@@ -1,0 +1,49 @@
+Author Name: E24106018 Chen Ping Hung
+File Condition: 
+C_MainFile opened successfully!
+C_RDRECFile opened successfully!
+C_WRRECFile opened successfully!
+
+Program Name: COPY  
+Transfer Address: 0
+Current Address: 105e
+Next Address: 107a
+Size In Bytes: 107a
+Begin Address: 0
+
+Symbol Table:
+  Symbol: COPY, Address: 0
+  Symbol: RDREC, Address: 1033
+  Symbol: BUFFER, Address: 33
+  Symbol: BUFEND, Address: 1033
+  Symbol: LENGTH, Address: 2d
+  Symbol: WRREC, Address: 105e
+
+EQUModifyTable:
+  Address: 4, Modify: 05+RDREC
+  Address: 1054, Modify: 05+LENGTH
+  Address: 24, Modify: 05+WRREC
+  Address: 11, Modify: 05+WRREC
+  Address: 1061, Modify: 05+LENGTH
+  Address: 106b, Modify: 05+BUFFER
+  Address: 105b, Modify: 06+BUFEND
+  Address: 105b, Modify: 06-BUFFER
+  Address: 104b, Modify: 05+BUFFER
+
+Original Integrated Object Code:
+  Address: 0, Object Code: 1720274B1000000320232900003320074B1000003F2FEC0320160F2016
+  Address: 1d, Object Code: 0100030F200A4B1000003E2000
+  Address: 30, Object Code: 454F46
+  Address: 1033, Object Code: B410B400B44077201FE3201B332FFADB2015A00433200957900000B850
+  Address: 1050, Object Code: 3B2FE9131000004F0000F1000000
+  Address: 105e, Object Code: B41077100000E32012332FFA53900000DF2008B8503B2FEE4F000005
+
+Modified Integrated Object Code:
+  Address: 0, Object Code: 1720274B1010330320232900003320074B10105E3F2FEC0320160F2016
+  Address: 1d, Object Code: 0100030F200A4B10105E3E2000
+  Address: 30, Object Code: 454F46
+  Address: 1033, Object Code: B410B400B44077201FE3201B332FFADB2015A00433200957900033B850
+  Address: 1050, Object Code: 3B2FE91310002D4F0000F1001000
+  Address: 105e, Object Code: B4107710002DE32012332FFA53900033DF2008B8503B2FEE4F000005
+
+congratulation!! Linking loader seems complete successfully. 

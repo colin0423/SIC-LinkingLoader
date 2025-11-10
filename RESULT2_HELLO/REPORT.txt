@@ -1,0 +1,66 @@
+Author Name: E24106018 Chen Ping Hung
+File Condition: 
+OBJF-Hello-mainFile opened successfully!
+OBJF-STDIOFile opened successfully!
+
+Program Name: HELLO 
+Transfer Address: 0
+Current Address: 2a
+Next Address: bf
+Size In Bytes: bf
+Begin Address: 0
+
+Symbol Table:
+  Symbol: NLINE, Address: 96
+  Symbol: HELLO, Address: 0
+  Symbol: STDIO, Address: 2a
+  Symbol: STIDEV, Address: 3e
+  Symbol: STODEV, Address: 5e
+  Symbol: GETCH, Address: 7e
+  Symbol: PUTCH, Address: 8a
+
+EQUModifyTable:
+  Address: 7, Modify: 05+PUTCH
+  Address: 11, Modify: 05+NLINE
+  Address: a6, Modify: 05+STDIO
+  Address: ad, Modify: 05+STDIO
+
+Original Integrated Object Code:
+  Address: 0, Object Code: 072014
+  Address: 3, Object Code: 53A017
+  Address: 6, Object Code: 4B100000
+  Address: a, Object Code: 2F200D
+  Address: d, Object Code: 3B2FF3
+  Address: 10, Object Code: 4B100000
+  Address: 14, Object Code: 4C0000
+  Address: 17, Object Code: 00000000000D48656C6C6F2C20776F726C6421
+  Address: 3c, Object Code: F105
+  Address: 3e, Object Code: 172FEF7F2FEF872FEF132FEF572FEFA0000B2FF26F2FF2772FF2072FF2
+  Address: 5b, Object Code: 4F0000
+  Address: 5e, Object Code: 172FCF7F2FCF872FCF132FCF572FD0A0000B2FC16F2FC1772FC1072FC1
+  Address: 7b, Object Code: 4F0000
+  Address: 7e, Object Code: E32FBB332FFADB2FB54F0000
+  Address: 8a, Object Code: E32FB0332FFADF2FAA4F0000
+  Address: 96, Object Code: 172F977F2F97872F97132F9751000D4B10006051000A4B100060
+  Address: b0, Object Code: 0B2F7D6F2F7D772F7D072F7D4F0000
+
+Modified Integrated Object Code:
+  Address: 0, Object Code: 072014
+  Address: 3, Object Code: 53A017
+  Address: 6, Object Code: 4B10008A
+  Address: a, Object Code: 2F200D
+  Address: d, Object Code: 3B2FF3
+  Address: 10, Object Code: 4B100096
+  Address: 14, Object Code: 4C0000
+  Address: 17, Object Code: 00000000000D48656C6C6F2C20776F726C6421
+  Address: 3c, Object Code: F105
+  Address: 3e, Object Code: 172FEF7F2FEF872FEF132FEF572FEFA0000B2FF26F2FF2772FF2072FF2
+  Address: 5b, Object Code: 4F0000
+  Address: 5e, Object Code: 172FCF7F2FCF872FCF132FCF572FD0A0000B2FC16F2FC1772FC1072FC1
+  Address: 7b, Object Code: 4F0000
+  Address: 7e, Object Code: E32FBB332FFADB2FB54F0000
+  Address: 8a, Object Code: E32FB0332FFADF2FAA4F0000
+  Address: 96, Object Code: 172F977F2F97872F97132F9751000D4B10008A51000A4B10008A
+  Address: b0, Object Code: 0B2F7D6F2F7D772F7D072F7D4F0000
+
+congratulation!! Linking loader seems complete successfully. 
