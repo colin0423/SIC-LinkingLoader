@@ -5,9 +5,9 @@ Read object file(fiexd name DEVF2)
 output to DEV05
 ## Linking Loader
 ### main function
-parse the object file
-link and load the file into memory
-generate the memory image and error to the report file
+parse the object file  
+link and load the file into memory  
+generate the memory image and error to the report file  
 ### RESULT1_COPY
 output the copy result from the object file
 ### RESULT2_HELLO
